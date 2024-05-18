@@ -1,0 +1,52 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: repeat(8, 50px);
+  gap: 2px;
+}
+.square {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+#game {
+  border: 5px solid black;
+  width: 416px;
+}
+.black-square {
+  background-color: black;
+}
+.white-square {
+  background-color: white;
+}
+.red-piece {
+  background-color: red;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.black-piece {
+  background-color: gray;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.choice {
+  background-color: green;
+}
+.score {
+  margin-top: 10px;
+  font-size: 18px;
+}
