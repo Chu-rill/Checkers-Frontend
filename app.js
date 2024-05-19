@@ -262,9 +262,8 @@ function gameOver(winner) {
 }
 
 function updateScores() {
-  document.getElementById("red-score").innerText = "Red Score: " + redScore;
-  document.getElementById("black-score").innerText =
-    "Black Score: " + blackScore;
+  document.getElementById("red-score").innerText = redScore;
+  document.getElementById("black-score").innerText = blackScore;
 }
 
 newGame();
