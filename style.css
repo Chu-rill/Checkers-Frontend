@@ -60,3 +60,23 @@ body {
   flex-direction: column;
   align-items: center;
 }
+@media (max-width: 640px) {
+  .board {
+    grid-template-columns: repeat(8, 80px);
+    grid-template-rows: repeat(8, 80px);
+    gap: 4px;
+  }
+  .square {
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+  }
+  #game {
+    width: calc(8 * 80px + 7 * 4px + 10px); /* 8 squares, 7 gaps, 10px border */
+  }
+  .red-piece,
+  .black-piece {
+    width: 70px;
+    height: 70px;
+  }
+}
