@@ -61,22 +61,28 @@ body {
   align-items: center;
 }
 @media (max-width: 640px) {
+  body {
+    display: block;
+    margin-top: 80px;
+  }
   .board {
-    grid-template-columns: repeat(8, 80px);
-    grid-template-rows: repeat(8, 80px);
-    gap: 4px;
+    grid-template-columns: repeat(8, 70px);
+    grid-template-rows: repeat(8, 70px);
+    gap: 3px;
   }
   .square {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     font-size: 24px;
   }
   #game {
-    width: calc(8 * 80px + 7 * 4px + 10px); /* 8 squares, 7 gaps, 10px border */
+    width: calc(8 * 70px + 7 * 3px + 10px); /* 8 squares, 7 gaps, 10px border */
+    margin-right: auto;
+    margin-left: auto;
   }
   .red-piece,
   .black-piece {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
   }
 }
