@@ -59,7 +59,7 @@ nav ul a:hover {
   background-color: #f9f9f9;
 }
 .leaderboard-item:nth-child(odd) {
-  background-color: #fff;
+  background-color: #cec9c9;
 }
 #first {
   margin-right: 50px;
