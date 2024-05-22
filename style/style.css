@@ -62,3 +62,16 @@ a {
 a:hover {
   text-decoration: underline;
 }
+#link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+#link p {
+  margin: 0;
+  margin-right: 20px;
+}
+#link a {
+  margin: 0;
+}
